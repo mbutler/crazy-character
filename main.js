@@ -13,17 +13,10 @@ const weapons = require("./weapon-list.json")
 const mutate = require("./mutate")
 const martialarts = require("./martialarts-list.json")
 
-function spawn() {
-    let agent = {}
-    agent.name = `${_.sample(firstnames)} ${_.sample(lastnames)}`
-    agent.spirit_animal = mutate.create()
-    agent.attributes = _.sampleSize(attributes, 6)
-    agent.weapons = _.sampleSize(weapons, 1)
-    agent.armor = _.sampleSize(armor, 1)
-    agent.skills = _.sampleSize(skills, 1)
-    agent.spells = _.sampleSize(spells, 1)
-    agent.martialarts = _.sampleSize(martialarts, 1)
-    return agent
+function epicWeapon() {
+    let weapon = ""
+    weapon += _.sample(weapons) + " of " + _.sample(skills)
+    return weapon
 }
 
 function quest() {
@@ -34,16 +27,26 @@ function quest() {
     return quest
 }
 
-function epicWeapon() {
-    let weapon = ""
-    weapon += _.sample(weapons) + " of " + _.sample(skills)
-    console.log(weapon)
+function spawn() {
+    let attributeList = _.sampleSize(attributes, 6)
+    let agent = {}
+    agent.name = `${_.sample(firstnames)} ${_.sample(lastnames)}`
+    agent.spirit_animal = mutate.create()    
+    agent.attributes = _.map(attributeList, (attribute) => {return {name: attribute, value: _.random(1, 100)}})
+    agent.weapons = _.sampleSize(weapons, 1)
+    agent.armor = _.sampleSize(armor, 1)
+    agent.skills = _.sampleSize(skills, 1)
+    agent.spells = _.sampleSize(spells, 1)
+    agent.martialarts = _.sampleSize(martialarts, 1)
+    agent.epicWeapon = epicWeapon()
+    agent.quest = quest()
+    return agent
 }
 
+
+
+
+
 console.log(`
-${JSON.stringify(spawn())}
-
-${JSON.stringify(quest())}
+${JSON.stringify(spawn(), null, 4)}
 `)
-
-epicWeapon()
