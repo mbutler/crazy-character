@@ -1,0 +1,83 @@
+**"The Whispered Prophecy of Worldsing"**
+
+---
+
+The streets of Worldsing were slick with rain, making the cobblestones gleam under the soft glow of lanterns. Heavy clouds overhead had rendered the night pitch-black, but the storm had been expected. After all, Derric Pierrepont, accompanied by his spirit animal, a majestic tiger capable of weather manipulation, had entered the town.
+
+Narrow alleyways and tall buildings on either side felt oppressive, but Derric’s sheer presence seemed to cut through the atmosphere, forcing the shadows to recoil. As he walked, whispers filled the air. Citizens had heard of a mage responsible for a high-level spell battle that had taken place the previous night. Many believed Derric, with his stout stature and commanding aura, to be the culprit. Others simply watched in awe or fear, influenced by the same commanding presence.
+
+A local merchant, recognizing Derric's radiating aura of importance, approached with a tip. "Sir, I've heard whispers that the true culprit hides within the catacombs beneath the cathedral. They say he's after an ancient artifact."
+
+Grateful, Derric handed the merchant a gold coin and made his way to the cathedral. However, as he approached, a group of town guards blocked his path, their intentions clear.
+
+He could have used his spirit animal to manipulate the weather further, perhaps shrouding his escape in dense fog. But instead, he chose to confront them. Drawing his "Pps", he readied himself for combat. A few of the guards recognized the martial stance of "Wado-Ryu", a defensive art that synergized beautifully with his stout build. Still, they charged.
+
+As swords clashed and the rain continued its relentless pour, Derric parried and countered, making full use of his "Round shield". A guard attempted to land a magical spell, but Derric's "Impervious to Radiation" spell activated, reflecting a portion of the magic. While he wasn't overly resistant to magic, he had tools in his arsenal to compensate.
+
+However, in the midst of battle, his clumsiness took hold. He slipped on the wet stones. As a sword swung towards him, a streak of orange and black intercepted. His tiger, not only a weather manipulator but also a fierce protector, tackled the assailant.
+
+Using the distraction, Derric pulled from his reserves and unleashed the power of his "Changdao of Siege Engineer", smashing through the cathedral's side entrance.
+
+Inside, the grandeur of the cathedral contrasted the intensity outside. Yet, below, in the catacombs, darkness reigned. Guided by his tiger's keen senses, Derric navigated the mazes.
+
+There, he finally encountered the true mage, a wisp of a man whose power was evident in the arcane symbols floating around him. The mage sought the "Orb of Neptis", a relic said to control time.
+
+A fierce magical duel ensued. Derric's stoutness and the defensive power of Wado-Ryu allowed him to endure the barrage of spells, reflecting and deflecting what he could, absorbing or dodging what he couldn't. It was a battle of endurance, and Derric's constitution gave him the edge.
+
+In the end, a swift combination of martial arts, empowered by his siege epic weapon, incapacitated the mage. Securing the "Orb of Neptis", Derric emerged from the catacombs.
+
+The rain had ceased, and dawn began to break. The town of Worldsing, once suspicious, now viewed Derric as a hero. But in the horizon, new adventures awaited, and with his tiger by his side, Derric Pierrepont was ready for them.
+
+---
+
+{
+    "name": "Derric Pierrepont",
+    "spirit_animal": "Tiger With Weather Manipulation",
+    "attributes": [
+        {
+            "name": "Magic Resistance",
+            "value": 4
+        },
+        {
+            "name": "Clumsiness",
+            "value": 40
+        },
+        {
+            "name": "Stout",
+            "value": 81
+        },
+        {
+            "name": "Presence",
+            "value": 81
+        },
+        {
+            "name": "Constitution",
+            "value": 58
+        },
+        {
+            "name": "Software",
+            "value": 39
+        }
+    ],
+    "weapons": [
+        "Pps"
+    ],
+    "armor": [
+        "Round shield"
+    ],
+    "skills": [
+        "Swimming"
+    ],
+    "spells": [
+        "Impervious to Radiation and"
+    ],
+    "martialarts": [
+        "Wado-Ryu"
+    ],
+    "epicWeapon": "Changdao of Siege Engineer",
+    "quest": {
+        "story": "The town guard thinks the party's mage is responsible for a magical duel fought atop the cathedral roof last night. Can the party find the real culprit before they are hunted down themselves? Do they dare, knowing that the criminal dispatched his last opponent with a frighteningly high level spell?",
+        "locations": "Worldsing",
+        "mission": "Protect a high level business man for several days as he travels to and from work."
+    }
+}
